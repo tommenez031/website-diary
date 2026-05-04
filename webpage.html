@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | My College Diary</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Times New Roman", Times, serif; }
+
+        body {
+            background-color: rgb(98, 4, 4); 
+            color: white; 
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow-x: hidden;
+        }
+
+        header {
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 4px solid white; /* White Broadline */
+        }
+
+        header h1 { font-size: 32px; font-weight: bold; }
+        
+        header h1 a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffb6c1; 
+            text-decoration: underline;
+        }
+
+        .hero {
+            flex: 1;
+            display: flex;
+            align-items: flex-end; 
+            justify-content: space-between;
+            padding: 0 10%;
+        }
+
+        .hero-text {
+            padding-bottom: 15vh;
+            max-width: 600px;
+        }
+
+        .hero-text h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text h2 { 
+            font-size: 70px; 
+            font-weight: bold;
+            line-height: 1.1;
+            border-bottom: 10px solid white; 
+            display: inline-block;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .hero-text p {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .hero-image {
+            height: 90vh; 
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .hero-image img {
+            height: 100%; 
+            width: auto;
+            display: block;
+          
+            filter: drop-shadow(15px 15px 0px black); 
+            margin-bottom: -4px; 
+            position: relative;
+            z-index: 5;
+        }
+
+        footer {
+            padding: 20px;
+            border-top: 4px solid white; 
+            text-align: center;
+            font-weight: bold;
+            background: rgb(98, 4, 4); 
+            color: white;
+            position: relative;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="webpage.html">My College Diary</a></h1>
+        <nav>
+            <a href="webpage.html">Home</a> 
+            <a href="about.html">About</a>
+            <a href="diary.html">Diary</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h3>Hi! I'm</h3>
+            <h2> 𝕄𝕖ñ𝕖𝕫,<br>𝕋𝕠𝕞 𝕀𝕧𝕖𝕣𝕤𝕠𝕟 𝔹. </h2>
+            <p>BSIT Student at Colegio De Sta. Teresa De Avila</p>
+        </div>
+
+        <div class="hero-image">
+            <img src="tomboy.png" alt="ben">
+        </div>
+    </section>
+
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | My College Diary</title>
+    <style>
+        * {
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            font-family: "Times New Roman", Times, serif; 
+        }
+        
+        body { 
+            background-color: rgb(98, 4, 4);
+            color: white; 
+            min-height: 100vh; 
+            display: flex;
+            flex-direction: column;
+        }
+        
+        header { 
+            padding: 20px 60px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 4px solid white; 
+        }
+        
+        header h1 a {
+            text-decoration: none;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin-left: 25px; 
+            font-size: 20px; 
+            font-weight: bold; 
+        }
+        
+        nav a:hover { 
+            text-decoration: underline; 
+            color: #ffb6c1; 
+            transition: 0.3s; 
+        }
+
+        .container { 
+            flex: 1;
+            padding: 50px 10%; 
+            text-align: center; 
+        }
+
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 40px; 
+            margin-bottom: 60px;
+        }
+
+        .gallery-item { 
+            background: white; 
+            border: 4px solid white; 
+            border-radius: 20px; 
+            overflow: hidden; 
+            box-shadow: 12px 12px 0px black; 
+            transition: 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .gallery-item:hover { 
+            transform: translateY(-10px); 
+            box-shadow: 18px 18px 0px black; 
+        }
+        
+        .gallery-item img { 
+            width: 100%; 
+            height: 250px; 
+            object-fit: cover; 
+            border-bottom: 3px solid rgb(6, 98, 4);
+            display: block; 
+        }
+        
+        .caption { 
+            padding: 20px; 
+            color: black; 
+            background-color: #fff;
+            text-align: left;
+        }
+
+        .caption h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+            color: rgb(6, 98, 4);
+        }
+
+        .caption p {
+            font-size: 15px;
+            font-weight: normal;
+            line-height: 1.4;
+            color: #333;
+        }
+
+        footer { 
+            padding: 20px; 
+            border-top: 4px solid white; 
+            text-align: center; 
+            font-weight: bold; 
+            background-color: rgb(6, 98, 4);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1><a href="webpage.html">My College Diary</a></h1>
+        <nav>
+            <a href="webpage.html">Home</a> 
+            <a href="about.html">About</a>
+            <a href="diary.html">Diary</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+   <div class="container">
+                        <div class="grid">
+                            <div class="gallery-item">
+                                <img src="first.png">
+                                <div class="caption">
+                                    <h3>MY FIRST FRIENDS33</h3>
+                                    <p>THESE ARE MY FIRST FRIENDS WHEN I BECOME A 1ST YEAR COLLEGE. 
+                        IN THE MIDDLE HIS FIRST NAME IS LORENZO LAURAYA AND THE OTHER ONE IS RYCHJIE CUESTA</p>
+                                </div>
+                            </div>
+
+            <div class="gallery-item">
+                <img src="firstbigevent.png">
+                <div class="caption">
+                    <h3>THE FIRST BIG EVENT!!</h3>
+                    <p>NOT A LONG TIME I MET MY NEW FRIENDS THIS IS MY FIRST CIRCLE OF FRIENDS IN FIRST YEAR. 
+                        THEY ARE MY BROS BECAUSE WE DO HELP EACH OTHER WHEN ONE OF US NEEDED HELP</p>
+                </div>
+            </div>        
+
+            <div class="container">
+                <div class="grid">
+                    <div class="gallery-item">
+                        <img src="itweek.jpg">
+                        <div class="caption">
+                            <h3>FIRST IT WEEK!!</h3>
+                            <p>THIS WEEK IS A BSIT WEEK IT MEANS ALL BSIT SHOULD ENJOY THIS WEEK AND THIS IS US ENJOYING THE IT WEEK. :D</p>
+                        </div>
+                    </div>      
+            
+                    <div class="container">
+                        <div class="grid">
+                            <div class="gallery-item">
+                                <img src="yearend.png">
+                                <div class="caption">
+                                    <h3>MY FIRST YEAR END AS AN 1ST YEAR</h3>
+                                    <p>ON THIS DAY I AM SO HAPPY LIKE NO WORDS CAN EXPLAIN HOW HAPPY THIS DAY WAS. AFTER PARTY WE GO OUT AND DO EVERYTHING WE WANT OUTSIDE, WE GET DRUNK AS HELL. ^_^</p>
+                                </div>
+                            </div>
+
+                    <div class="container">
+                        <div class="grid">
+                            <div class="gallery-item">
+                                <img src="yrend.jpg">
+                                <div class="caption">
+                                    <h3>MY FIRST YEAR END AS AN 1ST YEAR</h3>
+                                </div>
+                            </div>    
+                            
+                    <div class="container">
+                        <div class="grid">
+                            <div class="gallery-item">
+                                <img src="vacant.jpg">
+                                <div class="caption">
+                                    <h3>1ST YEAR 2ND SEM!</h3>
+                                    <p>TAMBAY :P</p>
+                                </div>
+                            </div>        
+                        
+                     <div class="container">
+                        <div class="grid">
+                            <div class="gallery-item">
+                                <img src="firstyr2ndsemhvd.jpg">
+                                <div class="caption">
+                                    <h3>VALENTINES EVENT!</h3>
+                                     <p>HEARTS DAY!</p>
+                                </div>
+                            </div> 
+                            
+                    <div class="container">
+                        <div class="grid">
+                            <div class="gallery-item">
+                                <img src="firstsportsfest.png">
+                                <div class="caption">
+                                    <h3>MY 1ST SPORTSFEST!!!</h3>
+                                     <p>I JOINED IN CHEERDANCE AND WE ARE IN 1ST PLACE!:D</p>
+                                </div>
+                            </div>  
+                           
+                    <div class="container">
+                        <div class="grid">
+                            <div class="gallery-item">
+                                <img src="haha.png">
+                                <div class="caption">
+                                    <h3>:P</h3>
+                                </div>
+                            </div>                          
+
+                    <div class="container">
+                        <div class="grid">
+                            <div class="gallery-item">
+                                <img src="hehe.png">
+                                <div class="caption">
+                                    <h3>:P</h3>
+                                </div>
+                            </div>                    
